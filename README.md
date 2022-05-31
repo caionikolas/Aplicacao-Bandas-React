@@ -1,4 +1,4 @@
-# Teste prático para Frontend Javascript Developer
+Teste prático para Frontend Javascript Developer
 
 ## Instruções
 
