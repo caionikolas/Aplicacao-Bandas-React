@@ -1,6 +1,6 @@
-#Teste prático para Frontend Javascript Developer
+# Teste prático para Frontend Javascript Developer
 
-Instruções
+## Instruções
 
 Use o README principal do seu repositório para nos contar como foi resolver seu teste, as decisões tomadas, como você organizou e separou seu código, e principalmente as instruções de como rodar seu projeto, afinal a primeira pessoa que irá rodar seu projeto será um programador backend de nossa equipe, e se você conseguir explicar para ele como fazer isso, você já começou bem!
 
@@ -20,7 +20,9 @@ Você pode gerar suas próprias API Keys para consumir as APIs, mas se quiser us
 Youtube: AIzaSyDd_sfvQ4NASb-k0oKYAr_g9FZcQILtyKc
 TicketMaster: q2GNlCrgGo6c8uej3Ib4MsbAC2KIr5nG
 
-O que nós esperamos do seu teste
+##
+
+### O que nós esperamos do seu teste
 
 - Ver na solução a utilização de um framework da sua escolha, mas por aqui utilizamos o VueJS. Utilize o framework da melhor forma possível (metodologia/estrutura). Escolha a versão do ecmascript que lhe agrade
 - Tambér ver a utilização de dependency managers (npm, webpack)
@@ -29,24 +31,32 @@ Automação de tasks com gulp, grunt ou outra ferramenta de sua escolha
 CSS3/4 - Com um pre processador de CSS (a escolha fica a seu critério, mas por aqui utilizamos SASS)
 - Mobile first e layout responsivo
 
-O que nós ficaríamos felizes de ver em seu teste
+##
+
+### O que nós ficaríamos felizes de ver em seu teste
 
 - Testes unitários
 - Alguma metodologia para definição e organização do seu código CSS
 
-O que nos impressionaria
+##
+
+### O que nos impressionaria
 
 - Testes de aceitação
 - BEM naming convention
 - Aplicação de animações em css quando possível e tome cuidado com a performance da sua animação :)
 - Ver o código rodando live (Bucket estático S3, Heroku, Firebase Hosting)
 
-O que nós não gostaríamos
+##
+
+### O que nós não gostaríamos
 - Descobrir que não foi você quem fez seu teste
 - Ver commits grandes, sem muita explicação nas mensagens em seu repositório
 - Encontrar um um commit com as dependências de NPM e do Bower
 
-O que avaliaremos de seu teste
+##
+
+### O que avaliaremos de seu teste
 
 - Histórico de commits do git
 - As instruções de como rodar o projeto
