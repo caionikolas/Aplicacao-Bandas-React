@@ -1,6 +1,6 @@
-Teste prático para Frontend Javascript Developer
+# Teste prático para Frontend Javascript Developer
 
-## Instruções
+### Instruções
 
 Use o README principal do seu repositório para nos contar como foi resolver seu teste, as decisões tomadas, como você organizou e separou seu código, e principalmente as instruções de como rodar seu projeto, afinal a primeira pessoa que irá rodar seu projeto será um programador backend de nossa equipe, e se você conseguir explicar para ele como fazer isso, você já começou bem!
 
