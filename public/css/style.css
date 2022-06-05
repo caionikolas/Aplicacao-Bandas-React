@@ -8,8 +8,11 @@
 
 body {
     font-family: 'Poiret One', cursive;
-    background-color: hsl(217, 54%, 11%);
+    background-image: url("/public/img/imagem-fundo.jpg");
     display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .container {
@@ -20,7 +23,7 @@ body {
 .wrapper {
     margin: 2rem 1rem;
     padding: 20px;
-    background-color: hsl(216, 50%, 16%);
+    background-color: #242B40;
     box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.75);
     border-radius: 10px;
 }
@@ -30,6 +33,7 @@ body {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
+    padding-bottom: 10px;
 }
 
 .img-top img {
@@ -38,15 +42,88 @@ body {
 }
 
 .message {
+    position: absolute;
     color: white;
+    display: flex;
+    font-weight: bold;
+    width: 3rem;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.input-group {
+    position: relative;
+}
+
+.input-group .underline::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.input-group .underline::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    bottom: -5px;
+    left: 0;
+    background: #BCA3BF;
+    transform: scaleX(0);
+    transition: all .3s ease-in-out;
+    transform-origin: left;
+}
+
+#search {
+    outline: none;
+    width: 277px;
+    margin-bottom: -3px;
+}
+
+.input {
+    padding: 6px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+
+
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transition: transform .25s;
+    color: rgb(255, 255, 255,0.2);
+    font-size: 14px;
+}
+
+.input-group input:focus ~ .underline::after{
+    transform: scaleX(1);
+}
+
+.input:focus +.input-label, .input:valid+.input-label{
+    transform: translate(0px, -14px) scale(.8);
+    color: #BCA3BF;
+}
+
+.input:is(:focus, :valid) {
+    outline-color: white;
+    outline: none;
 }
 
 .button {
     position: relative;
     width: 100px;
     font-size: 10px;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:rgba(255, 255, 255, 0.945);
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -55,8 +132,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 4vh;
-    margin-bottom: 10px;
+    height: 38px;
+    margin: 10px 88.5px;
 }
 
 .button *{
@@ -67,6 +144,8 @@ body {
     transition: opacity .25s;
 }
 
+
+
 .icon, .submit {
     opacity: 0;
 }
@@ -74,9 +153,9 @@ body {
 .button:focus{
     width: 38px;
     height: 38px;
-    background-color: rgb(5, 15, 8);
+    background-color: rgba(0, 0, 0, 0.5);;
     border-radius: 50%; 
-    
+    margin-left: 119.3px;
 }
 
 .button:focus .text {
@@ -93,7 +172,7 @@ body {
     width: 3rem;
     height: 3rem;
     position: absolute;
-    border: 5px solid #cc00ff;
+    border: 5px solid #463973;
     border-top-color: transparent;
     border-bottom-color: transparent;
     border-radius: 50%;
@@ -109,8 +188,8 @@ body {
     }
     50% {
         transform: rotate(180deg);
-        border-top-color: #fc4182;
-        border-bottom-color: #80ffdb;
+        border-top-color: #F26B9C;
+        border-bottom-color: #BCA3BF;
         border-right-color: transparent;
         border-left-color: transparent;
     }
@@ -120,8 +199,8 @@ body {
 }
 
 p{
-    margin-top: 8px;
-    font-size: 12px;
+    margin-top: 30px;
+    font-size: 10px;
     color: rgba(255, 255, 255, 0.945);
     text-align: center;
 }
@@ -131,3 +210,12 @@ a {
     color: rgba(160, 160, 160, 0.788);
     font-weight: bold;
 }
+
+a:hover{
+    color: #BCA3BF;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
