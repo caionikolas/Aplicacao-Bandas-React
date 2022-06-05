@@ -75,3 +75,4 @@ CSS3/4 - Com um pre processador de CSS (a escolha fica a seu critério, mas por 
 - Adição do rodapé dos autores
 
 ##
+- edição da caixa de login, background e finalização da tela de login
