@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #242B40;
+    border-bottom: solid 2px #BCA3BF;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+    header .logo{
+        width: 20%;
+        transform: scale(.4);
+    }
+        header .logo img{
+            max-width: 100%;
+            cursor: pointer;
+        }
+    header .busca{
+        width: 65%;
+    }
+        header .busca input{
+            height: 35px;
+            width: 35%;
+            font-size: 16px;
+            border-radius: 5px;
+            border-style: none;
+        }
+    .container{
+        padding-top: 20px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: stretch;
+    }
+        .container .video-list{
+            background-color: #BCA3BF;
+            width: 35%;
+            padding: 10px;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+        .container .video-list .item{
+            background-color: antiquewhite;
+            display: flex;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+        .container .video-list .item .video-title{
+            padding: 10px;
+        }
+        .container .video-list .item .video-title h2{
+            font-size: 14px;
+        }
+        .container .video{
+            margin-left: 10px;
+            margin-right: 20px;
+            background-color: aquamarine;
+            width: 65%;
+            display: flex;
+        }
