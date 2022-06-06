@@ -76,3 +76,6 @@ CSS3/4 - Com um pre processador de CSS (a escolha fica a seu critério, mas por 
 
 ##
 - edição da caixa de login, background e finalização da tela de login
+##
+- Inicio da criação da interface
+- header e design inicial
