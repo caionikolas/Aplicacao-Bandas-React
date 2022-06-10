@@ -82,3 +82,6 @@ CSS3/4 - Com um pre processador de CSS (a escolha fica a seu critério, mas por 
 ##
 - Interface para React
 - CSS para Style components
+##
+- Inserindo a Api do youtube na aplicação
+- configurando a aplicação para a Api receber o valor do input
