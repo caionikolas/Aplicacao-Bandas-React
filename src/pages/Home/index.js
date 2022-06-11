@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Provider } from 'react-redux'
+import store from '../../store'
 
 import Header from "../../components/home/header"
 import Lista from "../../components/home/lista"
@@ -11,11 +13,13 @@ class Home extends Component {
     render(){
         return(
             <>
-                <Header/>
-                <Container>
-                    <Lista/>
-                    <Video/>
-                </Container>
+                <Provider store={store}>
+                    <Header/>
+                    <Container>
+                        <Lista/>
+                        <Video/>
+                    </Container>
+                </Provider>
             </>
         )
     }

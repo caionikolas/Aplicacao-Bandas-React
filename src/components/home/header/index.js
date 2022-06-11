@@ -7,6 +7,14 @@ import { LogoContainer } from './styles'
 import { Busca } from './styles'
 
 class Header extends Component {
+
+    buscaInput = e => {
+        if(e.keyCode === 13){
+            const valor = e.target.value
+            console.log(valor)
+        }
+        
+    }
     render(){
         return(
             <>
@@ -15,7 +23,8 @@ class Header extends Component {
                     <img src={logo} />
                 </LogoContainer>
                 <Busca>
-                    <input type="text" placeholder="Buscar" />
+                    <input type="text" placeholder="Buscar" onKeyDown={(e) => this.buscaInput(e)}
+                    />
                 </Busca>
             </HeaderContainer>
             </>
