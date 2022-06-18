@@ -70,18 +70,6 @@ CSS3/4 - Com um pre processador de CSS (a escolha fica a seu critério, mas por 
 
 ##
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-HTML
-CSS
-JavaScript
-NodeJS
-EJS
-Express
-SQLite
-
-##
-
 ### Start Here
 
 - criação da Página de Busca
